@@ -1,3 +1,10 @@
+## Fork note
+
+This is a fork of void-packages that additionally includes the following package templates:
+
+ - HeroicGamesLauncher
+
+
 ## The XBPS source packages collection
 
 This repository contains the XBPS source packages collection to build binary packages
