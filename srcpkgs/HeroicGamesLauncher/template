@@ -1,0 +1,31 @@
+# Template file for 'HeroicGamesLauncher'
+pkgname=HeroicGamesLauncher
+version=2.9.2
+revision=1
+#wrksrc=
+#args=""
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends=""
+makedepends=""
+depends=""
+short_desc=" A Native GOG, Amazon and Epic Games Launcher for Linux, Windows and Mac."
+maintainer="vividtealeaf <vividtealeaf@protonmail.com>"
+license="GPL-3.0-or-later"
+homepage="https://heroicgameslauncher.com/"
+#changelog=""
+distfiles="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.9.2/heroic-2.9.2.tar.xz"
+checksum=c796d960f68c09082c1086603b103b80788d8afae2254554ceb0d9d0d60e4e97
+nopie=yes
+
+do_install() {
+	     vmkdir /usr/bin
+	     vmkdir /usr/lib
+	     vcopy ./ /usr/lib/${pkgname}
+	     ln -sfr $DESTDIR/usr/lib/${pkgname}/heroic $DESTDIR/usr/bin/heroic
+	     vinstall ${FILESDIR}/${pkgname}.desktop 644 usr/share/applications
+	     vmkdir /usr/share/icons/${pkgname}
+	     vinstall ${FILESDIR}/icon.png 644 usr/share/icons/${pkgname}/
+	     }

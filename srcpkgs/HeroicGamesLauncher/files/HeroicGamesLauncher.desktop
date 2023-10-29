@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=2.9.2
+Type=Application
+Terminal=False
+Exec=/usr/bin/heroic
+Name=HeroicGamesLauncher
+Icon=/usr/share/icons/HeroicGamesLauncher/icon.png
