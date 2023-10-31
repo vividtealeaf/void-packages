@@ -16,7 +16,7 @@ maintainer="vividtealeaf <vividtealeaf@protonmail.com>"
 license="GPL-3.0-or-later"
 homepage="https://heroicgameslauncher.com/"
 #changelog=""
-distfiles="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.9.2/heroic-2.9.2.tar.xz"
+distfiles="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v${version}/heroic-${version}.tar.xz"
 checksum=c796d960f68c09082c1086603b103b80788d8afae2254554ceb0d9d0d60e4e97
 nopie=yes
 
