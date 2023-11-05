@@ -1,6 +1,6 @@
 # Template file for 'HeroicGamesLauncher'
 pkgname=HeroicGamesLauncher
-version=2.9.2
+version=2.10.0
 revision=1
 #wrksrc=
 #args=""
@@ -17,7 +17,7 @@ license="GPL-3.0-or-later"
 homepage="https://heroicgameslauncher.com/"
 #changelog=""
 distfiles="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v${version}/heroic-${version}.tar.xz"
-checksum=c796d960f68c09082c1086603b103b80788d8afae2254554ceb0d9d0d60e4e97
+checksum=fc6cdb1756afff1a54f8533d4bcd231fdb6cb8070c877384806f25018421de52
 nopie=yes
 
 do_install() {
