@@ -2,16 +2,7 @@
 pkgname=HeroicGamesLauncher
 version=2.10.0
 revision=1
-#wrksrc=
-#args=""
-#make_build_args=""
-#make_install_args=""
-#conf_files=""
-#make_dirs="/var/log/dir 0755 root root"
-hostmakedepends=""
-makedepends=""
-depends=""
-short_desc=" A Native GOG, Amazon and Epic Games Launcher for Linux, Windows and Mac."
+short_desc="A Native GOG, Amazon and Epic Games Launcher for Linux, Windows and Mac"
 maintainer="vividtealeaf <vividtealeaf@protonmail.com>"
 license="GPL-3.0-or-later"
 homepage="https://heroicgameslauncher.com/"
