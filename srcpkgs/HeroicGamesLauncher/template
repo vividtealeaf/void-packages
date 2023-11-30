@@ -1,6 +1,6 @@
 # Template file for 'HeroicGamesLauncher'
 pkgname=HeroicGamesLauncher
-version=2.10.0
+version=2.11.0
 revision=1
 short_desc="Native GOG, Amazon and Epic Games Launcher for Linux, Windows and Mac"
 maintainer="vividtealeaf <vividtealeaf@protonmail.com>"
@@ -8,7 +8,7 @@ license="GPL-3.0-or-later"
 homepage="https://heroicgameslauncher.com/"
 #changelog=""
 distfiles="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v${version}/heroic-${version}.tar.xz"
-checksum=fc6cdb1756afff1a54f8533d4bcd231fdb6cb8070c877384806f25018421de52
+checksum=b33bf5482bde63027d2f79ba3948262c23980c1aea6584f55dcac283778e96e4
 nopie=yes
 
 do_install() {
